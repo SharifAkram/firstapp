@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: GradientContainer(),
+        body: GradientContainer(
+          Color.fromARGB(255, 33, 5, 109),
+          Color.fromARGB(255, 166, 159, 179),
+        ),
       ),
     );
   }
